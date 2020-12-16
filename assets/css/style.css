@@ -1,0 +1,15 @@
+/*
+stylesheet
+
+PINK :ff004d
+grey :EEEEEE
+
+*/
+
+
+#main-home .header-top .item a{
+    color: #000000;
+}
+#main-home .header-top .item a:hover{
+    color: #ff004d;
+}
