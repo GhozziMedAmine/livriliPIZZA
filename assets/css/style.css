@@ -13,7 +13,20 @@ grey :EEEEEE
 {
     color: #ff004d;
 }
+html,
+body{
+    font-family: 'Poppins', sans-serif;
 
+}
+.btn-theme{
+    background-color: #ff004d;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+.btn-theme:hover{
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 4px rgba(255, 0, 70, 0.5), 0px 0px 0px 7px rgba(255, 0, 70, 0.3);
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -38,6 +51,9 @@ grey :EEEEEE
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 5px;
+}
+#main-home .navbar .cart-icon:hover{
+ background-color: #000000;
 }
 /*responsive style*/
 
