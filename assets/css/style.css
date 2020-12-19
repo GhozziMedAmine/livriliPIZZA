@@ -6,6 +6,10 @@ grey :EEEEEE
 
 */
 /*Custom classes*/
+*{
+    margin: 0;
+    padding: 0;
+}
 .bg-pink{
     background-color: #ff004d;
 }
@@ -16,18 +20,7 @@ grey :EEEEEE
 html,
 body{
     font-family: 'Poppins', sans-serif;
-
 }
-/*
-.slider{
-    position: relative;
-    width: 100%;
-    min-height: 650px;
-    background: url(./../img/sitephoto/bg-home-01.jpg);
-    background-size:100% 100% ;
-}
-
-*/
 .btn-theme{
     background-color: #ff004d;
     padding: 5px 20px;
